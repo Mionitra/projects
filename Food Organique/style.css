@@ -1,0 +1,664 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font: 1em cursive;
+  width: 100vw;
+}
+
+header {
+  width: 100vw;
+  height: 100vh;
+}
+
+.top {
+  display: flex;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  padding: 15px;
+  align-items: center;
+  width: 100vw;
+  border-bottom: 2px solid rgb(179, 176, 176);
+  box-shadow: 0 0 5px 5px rgb(179, 176, 176);
+}
+.top div select {
+  border: transparent;
+  color: rgb(30, 198, 30);
+  font: 1em cursive;
+}
+
+.bar1 {
+  display: flex;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  padding: 15px;
+  align-items: center;
+  width: 100vw;
+}
+.bar1 .logo {
+  width: 150px;
+}
+.bar1 .search {
+  position: relative;
+  width: 300px;
+}
+.bar1 .search .search-input {
+  width: 80%;
+  padding: 8px 30px 8px 10px;
+  border: 1px solid rgb(30, 198, 30);
+  border-radius: 5px;
+  font-size: 16px;
+}
+.bar1 .search .search-icon {
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  transform: translateY(-50%);
+  color: white;
+  cursor: pointer;
+  background-color: rgb(30, 198, 30);
+  padding: 10px;
+  border-radius: 0 5px 5px 0;
+}
+.bar1 .font {
+  color: rgb(30, 198, 30);
+  font: 1em cursive;
+}
+.bar1 .font i {
+  margin-left: 20px;
+}
+
+.bar2 {
+  display: flex;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  padding: 15px;
+  align-items: center;
+  width: 100vw;
+}
+.bar2 ul {
+  display: flex;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  padding: 15px;
+  align-items: center;
+}
+.bar2 ul li {
+  margin-left: 20px;
+  padding: 10px;
+}
+.bar2 ul li a {
+  color: rgb(30, 198, 30);
+  font: 1em cursive;
+}
+.bar2 ul li a.active {
+  color: rgb(111, 179, 72);
+  font-weight: bolder;
+}
+.bar2 ul li a:hover {
+  color: rgb(111, 179, 72);
+  font-weight: bolder;
+}
+.bar2 ul li a select {
+  border: transparent;
+  color: rgb(30, 198, 30);
+  font: 1em cursive;
+}
+.bar2 ul li.anime {
+  background-color: rgb(30, 198, 30);
+}
+.bar2 ul li.anime a {
+  color: white;
+}
+.bar2 ul a.active {
+  color: rgb(111, 179, 72);
+}
+
+.corps1 {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  padding: 15px;
+  align-items: center;
+  background-image: url(bk1.jpg);
+  background-size: cover;
+}
+.corps1 .text {
+  background-color: rgba(175, 171, 171, 0.422);
+  align-items: center;
+  text-align: center;
+  padding: 75px 15px;
+  border-radius: 0 80px 0 80px;
+  width: 35vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.corps1 .text h3 {
+  font-size: 15px;
+  color: rgb(30, 198, 30);
+}
+.corps1 .text p {
+  font-size: 2em;
+}
+.corps1 .text form button {
+  background-color: rgb(30, 198, 30);
+  border: transparent;
+  padding: 15px 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 15px;
+}
+.corps1 .text form button:hover {
+  box-shadow: 0 0 5px 5px rgb(30, 198, 30);
+  word-spacing: 10px;
+}
+
+.corps2 {
+  display: flex;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  padding: 15px;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+}
+.corps2 .text {
+  display: flex;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  padding: 15px;
+  align-items: center;
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.corps2 .text .active {
+  margin-bottom: 25px;
+}
+.corps2 .text .active i {
+  color: rgb(30, 198, 30);
+  font-size: 3em;
+}
+.corps2 .text .active h3 {
+  font-size: 1.3em;
+  margin-top: 15px;
+}
+.corps2 .text .active p {
+  color: rgb(161, 158, 158);
+  font-size: 10px;
+}
+.corps2 .text div {
+  margin-left: 20px;
+  margin-bottom: 25px;
+}
+.corps2 .text div i {
+  color: rgb(30, 198, 30);
+  font-size: 3em;
+}
+.corps2 .text div h3 {
+  font-size: 1.1em;
+  margin-top: 15px;
+}
+.corps2 .text div p {
+  color: rgb(161, 158, 158);
+  font-size: 10px;
+}
+
+.corps3 {
+  width: 100vw;
+  text-align: center;
+  align-items: center;
+  background-color: rgba(181, 240, 93, 0.734);
+}
+.corps3 .image {
+  display: flex;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  padding: 15px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.corps3 .image div .im {
+  width: 125px;
+  border-radius: 50%;
+}
+.corps3 .image div p {
+  color: rgb(30, 198, 30);
+}
+.corps3 .image div.sect .im {
+  width: 125px;
+  border-radius: 50%;
+  border: 2px solid rgb(30, 198, 30);
+}
+.corps3 .image div:hover .im {
+  width: 125px;
+  border-radius: 50%;
+  border: 2px solid rgb(30, 198, 30);
+}
+
+.corps4 {
+  display: flex;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  padding: 15px;
+  align-items: center;
+  align-items: center;
+  width: 100vw;
+}
+.corps4 .text {
+  border: 2px solid rgb(30, 198, 30);
+  border-radius: 0 25px 0 25px;
+  display: flex;
+  padding: 0 50px 0 0;
+  align-items: center;
+}
+.corps4 .text .text1 .div {
+  display: flex;
+}
+.corps4 .text .text1 .div .hr1 {
+  width: 65px;
+  height: 5px;
+  background-color: rgb(30, 198, 30);
+}
+.corps4 .text .text1 .div .hr2 {
+  width: 300px;
+  height: 5px;
+  background-color: gray;
+}
+
+.corps5 {
+  display: flex;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  padding: 15px;
+  align-items: center;
+  text-align: center;
+  align-items: center;
+}
+.corps5 .links ul {
+  display: flex;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  padding: 15px;
+  align-items: center;
+}
+.corps5 .links ul a {
+  color: gray;
+  margin-left: 15px;
+}
+.corps5 .links ul a.active {
+  color: rgb(30, 198, 30);
+  border-bottom: 1px solid rgb(30, 198, 30);
+  font-weight: 600;
+}
+.corps5 .links ul a:hover {
+  color: rgb(30, 198, 30);
+  border-bottom: 1px solid rgb(30, 198, 30);
+  font-weight: 600;
+}
+.corps5 .image {
+  display: flex;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  padding: 15px;
+  align-items: center;
+}
+.corps5 .image div {
+  margin-left: 10px;
+}
+.corps5 .image div img.active {
+  border: 1px transparent rgb(30, 198, 30);
+  border-radius: 0 10px 0 10px;
+  box-shadow: 0 0 3px 1px rgb(30, 198, 30);
+}
+.corps5 .image div h3 {
+  color: rgb(30, 198, 30);
+}
+.corps5 .image div:hover img {
+  border: 1px transparent rgb(30, 198, 30);
+  border-radius: 0 10px 0 10px;
+  box-shadow: 0 0 3px 1px rgb(30, 198, 30);
+}
+
+.corps6 {
+  display: flex;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  padding: 15px;
+  align-items: center;
+  background-color: rgba(215, 211, 211, 0.494);
+}
+.corps6 .text h5 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: rgb(30, 198, 30);
+}
+.corps6 .text p {
+  font-size: 2em;
+  width: 40vw;
+}
+.corps6 form button {
+  background-color: rgb(30, 198, 30);
+  border: transparent;
+  padding: 15px 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 15px;
+}
+.corps6 form button:hover {
+  box-shadow: 0 0 5px 5px rgb(30, 198, 30);
+  word-spacing: 10px;
+}
+
+.corps7 {
+  align-items: center;
+  width: 100vw;
+}
+.corps7 .text {
+  display: flex;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  padding: 15px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.corps7 .text .left {
+  width: 39.5vw;
+  box-shadow: 0 0 10px 1px rgb(30, 198, 30);
+  border-radius: 25px;
+}
+.corps7 .text .left .bk {
+  background-image: url(image/pexels-dana-tentis-262959.jpg);
+  background-size: cover;
+  width: 39.5vw;
+  height: 50vh;
+  border-radius: 25px 25px 0 0;
+}
+.corps7 .text .left .texte {
+  padding: 15px;
+  width: 39.5vw;
+}
+.corps7 .right {
+  display: flex;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  padding: 15px;
+  align-items: center;
+}
+.corps7 .right .a {
+  display: flex;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  padding: 15px;
+  align-items: center;
+}
+.corps7 .right .a .texte1 {
+  margin-left: 5px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  padding: 15px;
+  align-items: center;
+  text-align: left;
+  align-items: center;
+  background-color: rgb(190, 239, 116);
+}
+footer .left {
+  width: 30vw;
+}
+footer .left i {
+  font-size: 2em;
+  color: rgb(30, 198, 30);
+  margin-left: 10px;
+}
+footer .links {
+  text-align: center;
+}
+footer .links ul li {
+  margin-bottom: 15px;
+}
+footer .links ul li a {
+  color: black;
+}
+footer .links ul li a.active {
+  color: rgb(30, 198, 30);
+  border-bottom: 1px solid rgb(30, 198, 30);
+  font-weight: 600;
+}
+footer .links ul li a:hover {
+  color: rgb(30, 198, 30);
+  border-bottom: 1px solid rgb(30, 198, 30);
+  font-weight: 600;
+}
+footer .right p {
+  font-size: 1.2em;
+}
+footer .right form input {
+  padding: 10px 30px;
+  border: 1px solid rgb(30, 198, 30);
+}
+footer .right form button {
+  background-color: rgb(30, 198, 30);
+  border: transparent;
+  padding: 15px 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 15px;
+}
+footer .right form button:hover {
+  box-shadow: 0 0 5px 5px rgb(30, 198, 30);
+  word-spacing: 10px;
+}
+
+@media screen and (max-width: 900px) {
+  .top p {
+    font-size: 10px;
+  }
+  .top div select {
+    font-size: 10px;
+  }
+  .bar1 .logo {
+    width: 70px;
+  }
+  .bar1 .search {
+    position: relative;
+    width: 300px;
+  }
+  .bar2 ul li.anime {
+    padding: 0 10px;
+  }
+  .bar2 ul li.anime a {
+    font-size: 10px;
+  }
+  .bar2 ul li.anime a i {
+    display: none;
+  }
+  .bar2 ul li {
+    margin-left: 0px;
+  }
+  .bar2 ul li a {
+    font-size: 8px;
+  }
+  .corps1 {
+    height: 50vh;
+  }
+  .corps1 .text {
+    padding: 15px;
+  }
+  .corps1 .text p {
+    font-size: 15px;
+  }
+  .corps1 .text form button {
+    padding: 5px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 7px;
+  }
+  .corps1 .text form button:hover {
+    box-shadow: 0 0 5px 5px rgb(30, 198, 30);
+    word-spacing: 10px;
+  }
+  .corps3 .image div .im {
+    width: 80px;
+    border-radius: 50%;
+  }
+  .corps3 .image div p {
+    color: rgb(30, 198, 30);
+  }
+  .corps3 .image div.sect .im {
+    width: 80px;
+    border-radius: 50%;
+    border: 2px solid rgb(30, 198, 30);
+  }
+  .corps3 .image div:hover .im {
+    width: 80px;
+    border-radius: 50%;
+    border: 2px solid rgb(30, 198, 30);
+  }
+  .corps4 .text {
+    padding: 0 10px 0 0;
+  }
+  .corps4 .text .text1 .div .hr1 {
+    width: 30px;
+    height: 5px;
+    background-color: rgb(30, 198, 30);
+  }
+  .corps4 .text .text1 .div .hr2 {
+    width: 100px;
+    height: 5px;
+    background-color: gray;
+  }
+  .corps5 .links ul a {
+    margin-left: 7px;
+  }
+  .corps5 .image div {
+    margin-left: 10px;
+  }
+  .corps5 .image div img {
+    width: 75px;
+  }
+  .corps5 .image div img.active {
+    border: 1px transparent rgb(30, 198, 30);
+    border-radius: 0 10px 0 10px;
+    box-shadow: 0 0 3px 1px rgb(30, 198, 30);
+  }
+  .corps5 .image div p {
+    font-size: 10px;
+  }
+  .corps5 .image div h3 {
+    font-size: 10px;
+  }
+  .corps5 .image div:hover img {
+    border: 1px transparent rgb(30, 198, 30);
+    border-radius: 0 10px 0 10px;
+    box-shadow: 0 0 3px 1px rgb(30, 198, 30);
+  }
+  .corps6 .text h5 {
+    font-size: 10px;
+  }
+  .corps6 .text p {
+    font-size: 12px;
+    width: 50vw;
+  }
+  .corps6 form button {
+    background-color: rgb(30, 198, 30);
+    border: transparent;
+    padding: 10px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 10px;
+  }
+  .corps6 form button:hover {
+    box-shadow: 0 0 5px 5px rgb(30, 198, 30);
+    word-spacing: 10px;
+  }
+  .corps7 p {
+    font-size: 15px;
+  }
+  .corps7 .text .left {
+    width: 75vw;
+    box-shadow: 0 0 10px 1px rgb(30, 198, 30);
+    border-radius: 25px;
+  }
+  .corps7 .text .left .bk {
+    background-image: url(image/pexels-dana-tentis-262959.jpg);
+    background-size: cover;
+    width: 75vw;
+    height: 35vh;
+    border-radius: 25px 25px 0 0;
+  }
+  .corps7 .text .left .texte {
+    width: 70vw;
+    font-size: 10px;
+  }
+  .corps7 .text .left .texte p {
+    font-size: 10px;
+  }
+  .corps7 .right {
+    display: block;
+  }
+  .corps7 .right .a img {
+    width: 100px;
+  }
+  .corps7 .right .a .texte1 h3 {
+    font-size: 10px;
+  }
+  .corps7 .right .a .texte1 p {
+    font-size: 10px;
+  }
+  .corps7 .right .a .texte1 h2 {
+    font-size: 10px;
+  }
+  footer .left img {
+    width: 75px;
+  }
+  footer .left i {
+    font-size: 10px;
+    color: rgb(30, 198, 30);
+    margin-left: 10px;
+  }
+  footer .left p {
+    font-size: 10px;
+  }
+  footer .left h3 {
+    font-size: 10px;
+  }
+  footer .links ul li {
+    margin-bottom: 5px;
+  }
+  footer .links ul li a {
+    color: black;
+    font-size: 10px;
+  }
+  footer .right {
+    text-align: right;
+  }
+  footer .right p {
+    font-size: 10;
+  }
+  footer .right form input {
+    padding: 5px 5px;
+    border: 1px solid rgb(30, 198, 30);
+    font-size: 8px;
+  }
+  footer .right form button {
+    background-color: rgb(30, 198, 30);
+    border: transparent;
+    padding: 5px 10px;
+    font-size: 10px;
+  }
+  footer .right form button:hover {
+    box-shadow: 0 0 5px 5px rgb(30, 198, 30);
+    word-spacing: 10px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
